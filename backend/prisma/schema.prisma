@@ -1,0 +1,277 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Package {
+  id             String             @id
+  title          String
+  enTitle        String
+  slug           String             @unique
+  area           String
+  duration       Int                @default(1)
+  theme          String             @default("culture")
+  price          Int                @default(0)
+  tag            String             @default("")
+  trail          String             @default("")
+  image          String             @default("")
+  gallery        Json?
+  description    String             @db.Text
+  enDescription  String             @db.Text
+  status         String             @default("PUBLISHED")
+  createdAt      DateTime           @default(now())
+  updatedAt      DateTime           @updatedAt
+  variants       PackageVariant[]
+  priceTiers     PackagePriceTier[]
+  promotions     Promotion[]
+  bookings       Booking[]
+}
+
+model PackageVariant {
+  id             Int                @id @default(autoincrement())
+  packageId      String
+  code           String
+  title          String
+  enTitle        String
+  subtitle       String             @default("")
+  enSubtitle     String             @default("")
+  heroImage      String             @default("")
+  gallery        Json
+  itinerary      Json
+  enItinerary    Json
+  includeItems   Json
+  enIncludeItems Json
+  excludeItems   Json
+  enExcludeItems Json
+  note           String             @db.Text
+  enNote         String             @db.Text
+  active         Boolean            @default(true)
+  sortOrder      Int                @default(0)
+  package        Package            @relation(fields: [packageId], references: [id], onDelete: Cascade)
+  priceTiers     VariantPriceTier[]
+  bookings       Booking[]
+
+  @@unique([packageId, code])
+  @@index([packageId, active])
+}
+
+model PackagePriceTier {
+  id        Int     @id @default(autoincrement())
+  packageId String
+  pax       Int
+  price     Int
+  season    String  @default("normal")
+  package   Package @relation(fields: [packageId], references: [id], onDelete: Cascade)
+
+  @@unique([packageId, pax, season])
+}
+
+model VariantPriceTier {
+  id        Int            @id @default(autoincrement())
+  variantId Int
+  pax       Int
+  price     Int
+  season    String         @default("normal")
+  variant   PackageVariant @relation(fields: [variantId], references: [id], onDelete: Cascade)
+
+  @@unique([variantId, pax, season])
+}
+
+model Vehicle {
+  id            Int           @id @default(autoincrement())
+  name          String
+  type          String
+  image         String        @default("")
+  gallery       Json?
+  specs         Json
+  fromPrice     Int           @default(0)
+  capacity      Int           @default(4)
+  transmission  String        @default("")
+  status        String        @default("idle")
+  rates         RentalRate[]
+  bookings      Booking[]
+}
+
+model RentalRate {
+  id            Int      @id @default(autoincrement())
+  vehicleId     Int
+  serviceType   String
+  durationHours Int      @default(12)
+  price         Int
+  vehicle       Vehicle  @relation(fields: [vehicleId], references: [id], onDelete: Cascade)
+
+  @@unique([vehicleId, serviceType, durationHours])
+}
+
+model Promotion {
+  id            Int      @id @default(autoincrement())
+  title         String
+  enTitle       String   @default("")
+  discountType  String
+  discountValue Int      @default(0)
+  startsOn      String?
+  endsOn        String?
+  packageId     String?
+  image         String   @default("")
+  active        Boolean  @default(true)
+  package       Package? @relation(fields: [packageId], references: [id], onDelete: SetNull)
+}
+
+model Faq {
+  id          Int     @id @default(autoincrement())
+  question    String
+  enQuestion  String  @default("")
+  answer      String  @db.Text
+  enAnswer    String  @db.Text
+  category    String  @default("general")
+  sortOrder   Int     @default(0)
+  published   Boolean @default(true)
+}
+
+model HomepageSection {
+  id          Int     @id @default(autoincrement())
+  sectionKey  String  @unique
+  title       String  @default("")
+  enTitle     String  @default("")
+  body        String  @db.Text
+  enBody      String  @db.Text
+  image       String  @default("") @db.Text
+  gallery     Json?
+  imageSettings Json?
+  sortOrder   Int     @default(0)
+  visible     Boolean @default(true)
+}
+
+model CatalogHomepageSettings {
+  kind        String  @id @db.VarChar(20)
+  mode        String  @default("AUTO")
+  visible     Boolean @default(true)
+  title       String
+  enTitle     String
+  selectedIds Json
+  imageAutoPlay Boolean @default(true)
+  imageIntervalSeconds Int @default(5)
+  rotateItems Boolean @default(false)
+  rotationIntervalSeconds Int @default(10)
+}
+
+model Booking {
+  id           String          @id
+  packageId    String?
+  variantId    Int?
+  vehicleId    Int?
+  packageTitle String          @default("")
+  variantTitle String          @default("")
+  name         String
+  phone        String
+  email        String?
+  serviceType  String          @default("driver_only")
+  date         String
+  pax          Int             @default(2)
+  pickup       String          @default("")
+  notes        String          @db.Text
+  locale       String          @default("id")
+  audience     String          @default("local")
+  status       String          @default("WAITING_CONFIRMATION")
+  totalAmount  Int             @default(0)
+  createdAt    DateTime        @default(now())
+  updatedAt    DateTime        @updatedAt
+  package      Package?        @relation(fields: [packageId], references: [id], onDelete: SetNull)
+  variant      PackageVariant? @relation(fields: [variantId], references: [id], onDelete: SetNull)
+  vehicle      Vehicle?        @relation(fields: [vehicleId], references: [id], onDelete: SetNull)
+
+  @@index([status, date])
+}
+
+model AdminUser {
+  id           Int             @id @default(autoincrement())
+  username     String          @unique
+  passwordHash String
+  role         String          @default("OWNER")
+  active       Boolean         @default(true)
+  createdAt    DateTime        @default(now())
+  updatedAt    DateTime        @updatedAt
+  sessions     AdminSession[]
+}
+
+model BlogPost {
+  id             Int                @id @default(autoincrement())
+  slug           String             @unique
+  title          String
+  enTitle        String             @default("")
+  excerpt        String             @db.Text
+  enExcerpt      String             @db.Text
+  content        String             @db.LongText
+  enContent      String             @db.LongText
+  image          String             @default("") @db.Text
+  gallery        Json?
+  imageSettings  Json?
+  category       String             @default("Inspirasi")
+  author         String             @default("Java Island Trip")
+  status         String             @default("DRAFT")
+  views          Int                @default(0)
+  readingMinutes Int                @default(1)
+  publishedAt    DateTime?
+  createdAt      DateTime           @default(now())
+  updatedAt      DateTime           @updatedAt
+  homepageItems  BlogHomepageItem[]
+  viewEvents     BlogView[]
+
+  @@index([status, publishedAt])
+  @@index([status, views])
+}
+
+model BlogSettings {
+  id            Int                @id
+  mode          String             @default("LATEST")
+  visible       Boolean            @default(true)
+  limit         Int                @default(3)
+  title         String             @default("Cerita di setiap perjalanan.")
+  enTitle       String             @default("Stories for your next journey.")
+  description   String             @db.Text
+  enDescription String             @db.Text
+  posts         BlogHomepageItem[]
+}
+
+model BlogHomepageItem {
+  settingsId Int
+  postId     Int
+  sortOrder  Int          @default(0)
+  settings   BlogSettings @relation(fields: [settingsId], references: [id], onDelete: Cascade)
+  post       BlogPost     @relation(fields: [postId], references: [id], onDelete: Cascade)
+
+  @@id([settingsId, postId])
+}
+
+model BlogView {
+  id          Int      @id @default(autoincrement())
+  postId      Int
+  visitorHash String   @db.VarChar(64)
+  day         DateTime @db.Date
+  post        BlogPost @relation(fields: [postId], references: [id], onDelete: Cascade)
+
+  @@unique([postId, visitorHash, day])
+}
+
+model AdminSession {
+  token     String    @id
+  username  String
+  expiresAt DateTime
+  createdAt DateTime  @default(now())
+  adminId   Int?
+  admin     AdminUser? @relation(fields: [adminId], references: [id], onDelete: Cascade)
+
+  @@index([expiresAt])
+}
+
+model LoginThrottle {
+  key       String   @id @db.VarChar(64)
+  failures  Int      @default(0)
+  resetAt   DateTime
+
+  @@index([resetAt])
+}

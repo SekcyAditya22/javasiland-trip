@@ -1,0 +1,77 @@
+.admin-toast-viewport {
+  display: grid;
+  gap: 10px;
+  pointer-events: none;
+  position: fixed;
+  right: max(18px, env(safe-area-inset-right));
+  top: max(18px, env(safe-area-inset-top));
+  width: min(370px, calc(100vw - 36px));
+  z-index: 200;
+}
+.admin-toast {
+  align-items: flex-start;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-left: 4px solid #23845a;
+  border-radius: 13px;
+  box-shadow: 0 8px 30px rgb(23 35 63 / 15%);
+  display: flex;
+  gap: 12px;
+  padding: 16px;
+  pointer-events: auto;
+}
+.admin-toast-icon {
+  align-items: center;
+  background: #e8f6ee;
+  border-radius: 9px;
+  color: #23845a;
+  display: flex;
+  flex: 0 0 32px;
+  height: 32px;
+  justify-content: center;
+}
+.admin-toast-copy {
+  flex: 1;
+  min-width: 0;
+}
+.admin-toast-copy strong {
+  color: var(--ink);
+  font-size: 12px;
+}
+.admin-toast-copy p {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 4px 0 0;
+  overflow-wrap: anywhere;
+}
+.admin-toast > button {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  color: var(--muted);
+  display: inline-flex;
+  justify-content: center;
+  padding: 4px;
+}
+.admin-toast > button:hover {
+  background: var(--mist);
+  color: var(--ink);
+}
+.admin-toast > button:focus-visible {
+  outline: 2px solid var(--navy);
+  outline-offset: 2px;
+}
+.admin-toast.error {
+  border-left-color: #b13d39;
+}
+.admin-toast.error .admin-toast-icon {
+  background: #fff0ef;
+  color: #b13d39;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .admin-toast {
+    animation: page-enter 140ms ease-out;
+  }
+}

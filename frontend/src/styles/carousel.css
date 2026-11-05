@@ -1,0 +1,164 @@
+.card-body,
+.fleet-card-content {
+  display: block;
+}
+.detail-gallery,
+.image-carousel {
+  min-width: 0;
+}
+.image-carousel-stage {
+  background: var(--mist);
+  height: 235px;
+  overflow: hidden;
+  position: relative;
+  touch-action: pan-y;
+}
+.fleet-card .image-carousel-stage {
+  height: 205px;
+}
+.image-carousel-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.image-carousel-image {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+.image-carousel-stage > .badge {
+  left: 15px;
+  position: absolute;
+  top: 15px;
+  pointer-events: none;
+}
+.image-carousel-count {
+  background: rgb(15 23 42 / 70%);
+  border-radius: 99px;
+  color: #fff;
+  font-size: 10px;
+  padding: 5px 9px;
+  pointer-events: none;
+  position: absolute;
+  right: 14px;
+  top: 15px;
+}
+.image-carousel-arrow {
+  align-items: center;
+  background: rgb(255 255 255 / 92%);
+  border: 1px solid rgb(255 255 255 / 80%);
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgb(15 23 42 / 16%);
+  color: var(--ink);
+  display: inline-flex;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: 0;
+}
+.image-carousel-arrow {
+  height: 44px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  transition:
+    background 160ms ease,
+    color 160ms ease,
+    box-shadow 160ms ease;
+}
+.image-carousel-arrow.previous {
+  left: 12px;
+}
+.image-carousel-arrow.next {
+  right: 12px;
+}
+.image-carousel-arrow:hover {
+  background: var(--navy);
+  color: #fff;
+  box-shadow: 0 5px 18px rgb(23 35 63 / 24%);
+}
+.image-carousel button:focus-visible,
+.image-carousel-link:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: -3px;
+}
+.image-carousel-bottom {
+  align-items: center;
+  background: linear-gradient(transparent, rgb(15 23 42 / 65%));
+  bottom: 0;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  left: 0;
+  padding: 24px 12px 10px;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+}
+.image-carousel-bottom button {
+  pointer-events: auto;
+}
+.image-carousel-dots {
+  display: flex;
+  gap: 2px;
+  max-width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.image-carousel-dots button {
+  background: transparent;
+  border: 0;
+  flex: 0 0 28px;
+  height: 26px;
+  padding: 9px 6px;
+}
+.image-carousel-dots button::after {
+  background: rgb(255 255 255 / 55%);
+  border-radius: 99px;
+  content: "";
+  display: block;
+  height: 8px;
+  width: 8px;
+  margin: 0 auto;
+}
+.image-carousel-dots button.active::after {
+  background: #fff;
+  width: 16px;
+}
+.image-carousel--detail .image-carousel-stage {
+  border-radius: 20px;
+  height: 520px;
+}
+.image-carousel .gallery-strip {
+  max-width: 100%;
+  overflow-x: auto;
+  padding-bottom: 5px;
+  scrollbar-width: thin;
+}
+.image-carousel .gallery-strip button {
+  flex: 0 0 auto;
+}
+.image-carousel-empty {
+  align-items: center;
+  color: var(--muted);
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  gap: 12px;
+  height: 100%;
+  justify-content: center;
+}
+.home-fleet-section {
+  padding-top: 25px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .smart-image[data-state="loaded"] > .image-carousel-image {
+    animation: page-enter 160ms ease-out;
+  }
+}
+@media (max-width: 780px) {
+  .image-carousel--detail .image-carousel-stage {
+    height: 340px;
+  }
+}

@@ -1,0 +1,1306 @@
+{
+  "packages": [
+    {
+      "id": "borobudur-merapi",
+      "title": "Borobudur & Merapi Escape",
+      "enTitle": "Borobudur & Merapi Escape",
+      "area": "Jogja",
+      "duration": 1,
+      "theme": "culture",
+      "price": 750000,
+      "tag": "Best Seller",
+      "trail": "",
+      "image": "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=900&q=85",
+      "desc": "Candi megah, udara pegunungan, dan cerita lokal dalam satu hari.",
+      "enDesc": "Ancient temples, mountain air, and local stories in one day.",
+      "priceTiers": [
+        {
+          "pax": 2,
+          "price": 1350000
+        },
+        {
+          "pax": 3,
+          "price": 1010000
+        },
+        {
+          "pax": 4,
+          "price": 750000
+        },
+        {
+          "pax": 5,
+          "price": 720000
+        },
+        {
+          "pax": 6,
+          "price": 690000
+        },
+        {
+          "pax": 7,
+          "price": 670000
+        },
+        {
+          "pax": 8,
+          "price": 650000
+        },
+        {
+          "pax": 9,
+          "price": 620000
+        }
+      ],
+      "variantDetails": [
+        {
+          "id": 1,
+          "code": "A",
+          "title": "Borobudur - Merapi",
+          "enTitle": "Borobudur - Merapi",
+          "subtitle": "",
+          "enSubtitle": "",
+          "heroImage": "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=900&q=85",
+          "gallery": [],
+          "itinerary": [],
+          "enItinerary": [],
+          "include": [],
+          "enInclude": [],
+          "exclude": [],
+          "enExclude": [],
+          "note": "",
+          "enNote": "",
+          "priceTiers": [
+            {
+              "pax": 2,
+              "price": 1350000
+            },
+            {
+              "pax": 3,
+              "price": 1010000
+            },
+            {
+              "pax": 4,
+              "price": 750000
+            },
+            {
+              "pax": 5,
+              "price": 720000
+            },
+            {
+              "pax": 6,
+              "price": 690000
+            },
+            {
+              "pax": 7,
+              "price": 670000
+            },
+            {
+              "pax": 8,
+              "price": 650000
+            },
+            {
+              "pax": 9,
+              "price": 620000
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "code": "B",
+          "title": "Borobudur - Prambanan",
+          "enTitle": "Borobudur - Prambanan",
+          "subtitle": "",
+          "enSubtitle": "",
+          "heroImage": "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=900&q=85",
+          "gallery": [],
+          "itinerary": [],
+          "enItinerary": [],
+          "include": [],
+          "enInclude": [],
+          "exclude": [],
+          "enExclude": [],
+          "note": "",
+          "enNote": "",
+          "priceTiers": [
+            {
+              "pax": 2,
+              "price": 1350000
+            },
+            {
+              "pax": 3,
+              "price": 1010000
+            },
+            {
+              "pax": 4,
+              "price": 750000
+            },
+            {
+              "pax": 5,
+              "price": 720000
+            },
+            {
+              "pax": 6,
+              "price": 690000
+            },
+            {
+              "pax": 7,
+              "price": 670000
+            },
+            {
+              "pax": 8,
+              "price": 650000
+            },
+            {
+              "pax": 9,
+              "price": 620000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dieng-golden-sunrise",
+      "title": "Dieng Golden Sunrise",
+      "enTitle": "Dieng Golden Sunrise",
+      "area": "Dieng",
+      "duration": 2,
+      "theme": "nature",
+      "price": 1250000,
+      "tag": "Popular",
+      "trail": "",
+      "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=900&q=85",
+      "desc": "Matahari terbit, telaga warna, dan dingin Dieng yang selalu dirindukan.",
+      "enDesc": "Golden sunrises, colourful lakes, and Dieng highland air.",
+      "priceTiers": [
+        {
+          "pax": 2,
+          "price": 2250000
+        },
+        {
+          "pax": 3,
+          "price": 1690000
+        },
+        {
+          "pax": 4,
+          "price": 1250000
+        },
+        {
+          "pax": 5,
+          "price": 1200000
+        },
+        {
+          "pax": 6,
+          "price": 1150000
+        },
+        {
+          "pax": 7,
+          "price": 1110000
+        },
+        {
+          "pax": 8,
+          "price": 1080000
+        },
+        {
+          "pax": 9,
+          "price": 1040000
+        }
+      ],
+      "variantDetails": [
+        {
+          "id": 3,
+          "code": "A",
+          "title": "Dieng Plateau",
+          "enTitle": "Dieng Plateau",
+          "subtitle": "",
+          "enSubtitle": "",
+          "heroImage": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=900&q=85",
+          "gallery": [],
+          "itinerary": [],
+          "enItinerary": [],
+          "include": [],
+          "enInclude": [],
+          "exclude": [],
+          "enExclude": [],
+          "note": "",
+          "enNote": "",
+          "priceTiers": [
+            {
+              "pax": 2,
+              "price": 2250000
+            },
+            {
+              "pax": 3,
+              "price": 1690000
+            },
+            {
+              "pax": 4,
+              "price": 1250000
+            },
+            {
+              "pax": 5,
+              "price": 1200000
+            },
+            {
+              "pax": 6,
+              "price": 1150000
+            },
+            {
+              "pax": 7,
+              "price": 1110000
+            },
+            {
+              "pax": 8,
+              "price": 1080000
+            },
+            {
+              "pax": 9,
+              "price": 1040000
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "code": "B",
+          "title": "Dieng - Sikunir Sunrise",
+          "enTitle": "Dieng - Sikunir Sunrise",
+          "subtitle": "",
+          "enSubtitle": "",
+          "heroImage": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=900&q=85",
+          "gallery": [],
+          "itinerary": [],
+          "enItinerary": [],
+          "include": [],
+          "enInclude": [],
+          "exclude": [],
+          "enExclude": [],
+          "note": "",
+          "enNote": "",
+          "priceTiers": [
+            {
+              "pax": 2,
+              "price": 2250000
+            },
+            {
+              "pax": 3,
+              "price": 1690000
+            },
+            {
+              "pax": 4,
+              "price": 1250000
+            },
+            {
+              "pax": 5,
+              "price": 1200000
+            },
+            {
+              "pax": 6,
+              "price": 1150000
+            },
+            {
+              "pax": 7,
+              "price": 1110000
+            },
+            {
+              "pax": 8,
+              "price": 1080000
+            },
+            {
+              "pax": 9,
+              "price": 1040000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jogja-slow-escape",
+      "title": "Jogja Slow Escape",
+      "enTitle": "Jogja Slow Escape",
+      "area": "Jogja",
+      "duration": 3,
+      "theme": "culture",
+      "price": 1980000,
+      "tag": "New",
+      "trail": "",
+      "image": "https://images.unsplash.com/photo-1555899434-94d1368aa7af?auto=format&fit=crop&w=900&q=85",
+      "desc": "Tiga hari untuk menikmati sisi Jogja yang hangat, pelan, dan penuh rasa.",
+      "enDesc": "Three days to experience Jogja at its warmest, slowest, most soulful pace.",
+      "priceTiers": [
+        {
+          "pax": 2,
+          "price": 3560000
+        },
+        {
+          "pax": 3,
+          "price": 2670000
+        },
+        {
+          "pax": 4,
+          "price": 1980000
+        },
+        {
+          "pax": 5,
+          "price": 1900000
+        },
+        {
+          "pax": 6,
+          "price": 1820000
+        },
+        {
+          "pax": 7,
+          "price": 1760000
+        },
+        {
+          "pax": 8,
+          "price": 1700000
+        },
+        {
+          "pax": 9,
+          "price": 1640000
+        }
+      ],
+      "variantDetails": [
+        {
+          "id": 5,
+          "code": "A",
+          "title": "Heritage & Culinary",
+          "enTitle": "Heritage & Culinary",
+          "subtitle": "",
+          "enSubtitle": "",
+          "heroImage": "https://images.unsplash.com/photo-1555899434-94d1368aa7af?auto=format&fit=crop&w=900&q=85",
+          "gallery": [],
+          "itinerary": [],
+          "enItinerary": [],
+          "include": [],
+          "enInclude": [],
+          "exclude": [],
+          "enExclude": [],
+          "note": "",
+          "enNote": "",
+          "priceTiers": [
+            {
+              "pax": 2,
+              "price": 3560000
+            },
+            {
+              "pax": 3,
+              "price": 2670000
+            },
+            {
+              "pax": 4,
+              "price": 1980000
+            },
+            {
+              "pax": 5,
+              "price": 1900000
+            },
+            {
+              "pax": 6,
+              "price": 1820000
+            },
+            {
+              "pax": 7,
+              "price": 1760000
+            },
+            {
+              "pax": 8,
+              "price": 1700000
+            },
+            {
+              "pax": 9,
+              "price": 1640000
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "code": "B",
+          "title": "Heritage - Beach - Culture",
+          "enTitle": "Heritage - Beach - Culture",
+          "subtitle": "",
+          "enSubtitle": "",
+          "heroImage": "https://images.unsplash.com/photo-1555899434-94d1368aa7af?auto=format&fit=crop&w=900&q=85",
+          "gallery": [],
+          "itinerary": [],
+          "enItinerary": [],
+          "include": [],
+          "enInclude": [],
+          "exclude": [],
+          "enExclude": [],
+          "note": "",
+          "enNote": "",
+          "priceTiers": [
+            {
+              "pax": 2,
+              "price": 3560000
+            },
+            {
+              "pax": 3,
+              "price": 2670000
+            },
+            {
+              "pax": 4,
+              "price": 1980000
+            },
+            {
+              "pax": 5,
+              "price": 1900000
+            },
+            {
+              "pax": 6,
+              "price": 1820000
+            },
+            {
+              "pax": 7,
+              "price": 1760000
+            },
+            {
+              "pax": 8,
+              "price": 1700000
+            },
+            {
+              "pax": 9,
+              "price": 1640000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "karimunjawa-blue",
+      "title": "Karimunjawa Blue Days",
+      "enTitle": "Karimunjawa Blue Days",
+      "area": "Karimunjawa",
+      "duration": 3,
+      "theme": "beach",
+      "price": 2750000,
+      "tag": "Limited",
+      "trail": "",
+      "image": "https://images.unsplash.com/photo-1507527762-9a4d7d4c0e6f?auto=format&fit=crop&w=900&q=85",
+      "desc": "Air sebening kaca, pulau-pulau kecil, dan hari-hari tanpa terburu-buru.",
+      "enDesc": "Crystal waters, tiny islands, and unhurried days by the sea.",
+      "priceTiers": [
+        {
+          "pax": 2,
+          "price": 4950000
+        },
+        {
+          "pax": 3,
+          "price": 3710000
+        },
+        {
+          "pax": 4,
+          "price": 2750000
+        },
+        {
+          "pax": 5,
+          "price": 2640000
+        },
+        {
+          "pax": 6,
+          "price": 2530000
+        },
+        {
+          "pax": 7,
+          "price": 2450000
+        },
+        {
+          "pax": 8,
+          "price": 2370000
+        },
+        {
+          "pax": 9,
+          "price": 2280000
+        }
+      ],
+      "variantDetails": [
+        {
+          "id": 7,
+          "code": "A",
+          "title": "Island Hopping",
+          "enTitle": "Island Hopping",
+          "subtitle": "",
+          "enSubtitle": "",
+          "heroImage": "https://images.unsplash.com/photo-1507527762-9a4d7d4c0e6f?auto=format&fit=crop&w=900&q=85",
+          "gallery": [],
+          "itinerary": [],
+          "enItinerary": [],
+          "include": [],
+          "enInclude": [],
+          "exclude": [],
+          "enExclude": [],
+          "note": "",
+          "enNote": "",
+          "priceTiers": [
+            {
+              "pax": 2,
+              "price": 4950000
+            },
+            {
+              "pax": 3,
+              "price": 3710000
+            },
+            {
+              "pax": 4,
+              "price": 2750000
+            },
+            {
+              "pax": 5,
+              "price": 2640000
+            },
+            {
+              "pax": 6,
+              "price": 2530000
+            },
+            {
+              "pax": 7,
+              "price": 2450000
+            },
+            {
+              "pax": 8,
+              "price": 2370000
+            },
+            {
+              "pax": 9,
+              "price": 2280000
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "code": "B",
+          "title": "Island Hopping - Sunset Cruise",
+          "enTitle": "Island Hopping - Sunset Cruise",
+          "subtitle": "",
+          "enSubtitle": "",
+          "heroImage": "https://images.unsplash.com/photo-1507527762-9a4d7d4c0e6f?auto=format&fit=crop&w=900&q=85",
+          "gallery": [],
+          "itinerary": [],
+          "enItinerary": [],
+          "include": [],
+          "enInclude": [],
+          "exclude": [],
+          "enExclude": [],
+          "note": "",
+          "enNote": "",
+          "priceTiers": [
+            {
+              "pax": 2,
+              "price": 4950000
+            },
+            {
+              "pax": 3,
+              "price": 3710000
+            },
+            {
+              "pax": 4,
+              "price": 2750000
+            },
+            {
+              "pax": 5,
+              "price": 2640000
+            },
+            {
+              "pax": 6,
+              "price": 2530000
+            },
+            {
+              "pax": 7,
+              "price": 2450000
+            },
+            {
+              "pax": 8,
+              "price": 2370000
+            },
+            {
+              "pax": 9,
+              "price": 2280000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prau-patakbanteng",
+      "title": "Mount Prau via Patak Banteng",
+      "enTitle": "Mount Prau via Patak Banteng",
+      "area": "Malaysia Trip",
+      "duration": 2,
+      "theme": "hiking",
+      "price": 1650000,
+      "tag": "Best Seller",
+      "trail": "Patak Banteng",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=85",
+      "desc": "Golden sunrise dari Puncak Prau (2.565 mdpl) melalui jalur populer Patak Banteng yang lebih singkat dan landai di awal. Cocok untuk pendaki pemula hingga berpengalaman.",
+      "enDesc": "Golden sunrise from Prau Summit (2,565 masl) via the popular Patak Banteng trail — shorter and gentler at the start. Great for beginners and seasoned hikers.",
+      "priceTiers": [
+        {
+          "pax": 4,
+          "price": 1650000
+        },
+        {
+          "pax": 5,
+          "price": 1580000
+        },
+        {
+          "pax": 6,
+          "price": 1520000
+        },
+        {
+          "pax": 7,
+          "price": 1470000
+        },
+        {
+          "pax": 8,
+          "price": 1420000
+        },
+        {
+          "pax": 9,
+          "price": 1370000
+        },
+        {
+          "pax": 10,
+          "price": 1320000
+        }
+      ],
+      "variantDetails": [
+        {
+          "id": 9,
+          "code": "A",
+          "title": "Prau via Patak Banteng - Standard",
+          "enTitle": "Prau via Patak Banteng - Standard",
+          "subtitle": "",
+          "enSubtitle": "",
+          "heroImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=85",
+          "gallery": [],
+          "itinerary": [],
+          "enItinerary": [],
+          "include": [],
+          "enInclude": [],
+          "exclude": [],
+          "enExclude": [],
+          "note": "",
+          "enNote": "",
+          "priceTiers": [
+            {
+              "pax": 4,
+              "price": 1650000
+            },
+            {
+              "pax": 5,
+              "price": 1580000
+            },
+            {
+              "pax": 6,
+              "price": 1520000
+            },
+            {
+              "pax": 7,
+              "price": 1470000
+            },
+            {
+              "pax": 8,
+              "price": 1420000
+            },
+            {
+              "pax": 9,
+              "price": 1370000
+            },
+            {
+              "pax": 10,
+              "price": 1320000
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "code": "B",
+          "title": "Prau via Patak Banteng - Private Camp",
+          "enTitle": "Prau via Patak Banteng - Private Camp",
+          "subtitle": "",
+          "enSubtitle": "",
+          "heroImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=85",
+          "gallery": [],
+          "itinerary": [],
+          "enItinerary": [],
+          "include": [],
+          "enInclude": [],
+          "exclude": [],
+          "enExclude": [],
+          "note": "",
+          "enNote": "",
+          "priceTiers": [
+            {
+              "pax": 4,
+              "price": 1650000
+            },
+            {
+              "pax": 5,
+              "price": 1580000
+            },
+            {
+              "pax": 6,
+              "price": 1520000
+            },
+            {
+              "pax": 7,
+              "price": 1470000
+            },
+            {
+              "pax": 8,
+              "price": 1420000
+            },
+            {
+              "pax": 9,
+              "price": 1370000
+            },
+            {
+              "pax": 10,
+              "price": 1320000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "merbabu-suwanting",
+      "title": "Mount Merbabu via Suwanting",
+      "enTitle": "Mount Merbabu via Suwanting",
+      "area": "Malaysia Trip",
+      "duration": 2,
+      "theme": "hiking",
+      "price": 2900000,
+      "tag": "Popular",
+      "trail": "Suwanting",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=900&q=85",
+      "desc": "Sabana luas dan trek yang memanjakan mata menuju Puncak Merbabu (3.145 mdpl) via jalur favorit Suwanting, dengan panorama Merapi yang megah saat sunrise.",
+      "enDesc": "Wide savanna and a scenic trail to Merbabu Summit (3,145 masl) via the favourite Suwanting route, with majestic Merapi views at sunrise.",
+      "priceTiers": [
+        {
+          "pax": 4,
+          "price": 2900000
+        },
+        {
+          "pax": 5,
+          "price": 2780000
+        },
+        {
+          "pax": 6,
+          "price": 2670000
+        },
+        {
+          "pax": 7,
+          "price": 2580000
+        },
+        {
+          "pax": 8,
+          "price": 2490000
+        },
+        {
+          "pax": 9,
+          "price": 2410000
+        },
+        {
+          "pax": 10,
+          "price": 2320000
+        }
+      ],
+      "variantDetails": [
+        {
+          "id": 11,
+          "code": "A",
+          "title": "Merbabu via Suwanting - Standard",
+          "enTitle": "Merbabu via Suwanting - Standard",
+          "subtitle": "",
+          "enSubtitle": "",
+          "heroImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=900&q=85",
+          "gallery": [],
+          "itinerary": [],
+          "enItinerary": [],
+          "include": [],
+          "enInclude": [],
+          "exclude": [],
+          "enExclude": [],
+          "note": "",
+          "enNote": "",
+          "priceTiers": [
+            {
+              "pax": 4,
+              "price": 2900000
+            },
+            {
+              "pax": 5,
+              "price": 2780000
+            },
+            {
+              "pax": 6,
+              "price": 2670000
+            },
+            {
+              "pax": 7,
+              "price": 2580000
+            },
+            {
+              "pax": 8,
+              "price": 2490000
+            },
+            {
+              "pax": 9,
+              "price": 2410000
+            },
+            {
+              "pax": 10,
+              "price": 2320000
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "code": "B",
+          "title": "Merbabu via Suwanting - Private Camp",
+          "enTitle": "Merbabu via Suwanting - Private Camp",
+          "subtitle": "",
+          "enSubtitle": "",
+          "heroImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=900&q=85",
+          "gallery": [],
+          "itinerary": [],
+          "enItinerary": [],
+          "include": [],
+          "enInclude": [],
+          "exclude": [],
+          "enExclude": [],
+          "note": "",
+          "enNote": "",
+          "priceTiers": [
+            {
+              "pax": 4,
+              "price": 2900000
+            },
+            {
+              "pax": 5,
+              "price": 2780000
+            },
+            {
+              "pax": 6,
+              "price": 2670000
+            },
+            {
+              "pax": 7,
+              "price": 2580000
+            },
+            {
+              "pax": 8,
+              "price": 2490000
+            },
+            {
+              "pax": 9,
+              "price": 2410000
+            },
+            {
+              "pax": 10,
+              "price": 2320000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prau-merbabu-combo",
+      "title": "Prau + Merbabu Combo Expedition",
+      "enTitle": "Prau + Merbabu Combo Expedition",
+      "area": "Malaysia Trip",
+      "duration": 4,
+      "theme": "hiking",
+      "price": 4000000,
+      "tag": "Limited",
+      "trail": "Patak Banteng & Suwanting",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=900&q=85",
+      "desc": "Ekspedisi dua gunung dalam satu perjalanan: Prau via Patak Banteng dan Merbabu via Suwanting, dengan hari pemulihan di Dataran Tinggi Dieng.",
+      "enDesc": "A two-mountain expedition in one journey: Prau via Patak Banteng and Merbabu via Suwanting, with a recovery day on the Dieng Plateau.",
+      "priceTiers": [
+        {
+          "pax": 4,
+          "price": 4000000
+        },
+        {
+          "pax": 5,
+          "price": 3840000
+        },
+        {
+          "pax": 6,
+          "price": 3680000
+        },
+        {
+          "pax": 7,
+          "price": 3560000
+        },
+        {
+          "pax": 8,
+          "price": 3440000
+        },
+        {
+          "pax": 9,
+          "price": 3320000
+        },
+        {
+          "pax": 10,
+          "price": 3200000
+        }
+      ],
+      "variantDetails": [
+        {
+          "id": 13,
+          "code": "A",
+          "title": "Combo 4D3N - Standard",
+          "enTitle": "Combo 4D3N - Standard",
+          "subtitle": "",
+          "enSubtitle": "",
+          "heroImage": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=900&q=85",
+          "gallery": [],
+          "itinerary": [],
+          "enItinerary": [],
+          "include": [],
+          "enInclude": [],
+          "exclude": [],
+          "enExclude": [],
+          "note": "",
+          "enNote": "",
+          "priceTiers": [
+            {
+              "pax": 4,
+              "price": 4000000
+            },
+            {
+              "pax": 5,
+              "price": 3840000
+            },
+            {
+              "pax": 6,
+              "price": 3680000
+            },
+            {
+              "pax": 7,
+              "price": 3560000
+            },
+            {
+              "pax": 8,
+              "price": 3440000
+            },
+            {
+              "pax": 9,
+              "price": 3320000
+            },
+            {
+              "pax": 10,
+              "price": 3200000
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "code": "B",
+          "title": "Combo 4D3N - Full Support",
+          "enTitle": "Combo 4D3N - Full Support",
+          "subtitle": "",
+          "enSubtitle": "",
+          "heroImage": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=900&q=85",
+          "gallery": [],
+          "itinerary": [],
+          "enItinerary": [],
+          "include": [],
+          "enInclude": [],
+          "exclude": [],
+          "enExclude": [],
+          "note": "",
+          "enNote": "",
+          "priceTiers": [
+            {
+              "pax": 4,
+              "price": 4000000
+            },
+            {
+              "pax": 5,
+              "price": 3840000
+            },
+            {
+              "pax": 6,
+              "price": 3680000
+            },
+            {
+              "pax": 7,
+              "price": 3560000
+            },
+            {
+              "pax": 8,
+              "price": 3440000
+            },
+            {
+              "pax": 9,
+              "price": 3320000
+            },
+            {
+              "pax": 10,
+              "price": 3200000
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fleet": [
+    {
+      "id": 1,
+      "name": "Toyota Avanza",
+      "type": "MPV · 6 seats",
+      "image": "/image/avanza.jpg",
+      "specs": [
+        "6 seats",
+        "Automatic",
+        "AC"
+      ],
+      "from": 550000,
+      "capacity": 4,
+      "transmission": null,
+      "status": "idle"
+    },
+    {
+      "id": 2,
+      "name": "Toyota Innova Reborn",
+      "type": "Premium MPV · 7 seats",
+      "image": "/image/REBORN.jpg",
+      "specs": [
+        "7 seats",
+        "Automatic",
+        "Captain seat"
+      ],
+      "from": 700000,
+      "capacity": 4,
+      "transmission": null,
+      "status": "idle"
+    },
+    {
+      "id": 3,
+      "name": "Toyota Hiace Premio",
+      "type": "Van · 14 seats",
+      "image": "/image/PREMIO.jpg",
+      "specs": [
+        "14 seats",
+        "Manual",
+        "Luggage"
+      ],
+      "from": 1100000,
+      "capacity": 4,
+      "transmission": null,
+      "status": "idle"
+    },
+    {
+      "id": 4,
+      "name": "Toyota Hiace Commuter",
+      "type": "Van - 14 seats",
+      "image": "/image/COMMUTER.jpg",
+      "specs": [
+        "14 seats",
+        "Manual",
+        "Luggage"
+      ],
+      "from": 900000,
+      "capacity": 14,
+      "transmission": "Manual",
+      "status": "idle"
+    },
+    {
+      "id": 5,
+      "name": "Isuzu Elf Long",
+      "type": "Minibus - 19 seats",
+      "image": "/image/ELFLONG.jpg",
+      "specs": [
+        "19 seats",
+        "Manual",
+        "Luggage besar"
+      ],
+      "from": 1100000,
+      "capacity": 19,
+      "transmission": "Manual",
+      "status": "idle"
+    },
+    {
+      "id": 6,
+      "name": "Medium Bus Pariwisata",
+      "type": "Bus - 31 seats",
+      "image": "/image/BUSMEDIUM.jpg",
+      "specs": [
+        "31 seats",
+        "Manual",
+        "Bagasi luas"
+      ],
+      "from": 1600000,
+      "capacity": 31,
+      "transmission": "Manual",
+      "status": "idle"
+    }
+  ],
+  "rentalRates": [
+    {
+      "vehicleId": 1,
+      "serviceType": "driver_only",
+      "price": 500000
+    },
+    {
+      "vehicleId": 1,
+      "serviceType": "driver_fuel",
+      "price": 725000
+    },
+    {
+      "vehicleId": 1,
+      "serviceType": "all_in",
+      "price": 850000
+    },
+    {
+      "vehicleId": 2,
+      "serviceType": "driver_only",
+      "price": 700000
+    },
+    {
+      "vehicleId": 2,
+      "serviceType": "driver_fuel",
+      "price": 950000
+    },
+    {
+      "vehicleId": 2,
+      "serviceType": "all_in",
+      "price": 1100000
+    },
+    {
+      "vehicleId": 3,
+      "serviceType": "driver_only",
+      "price": 1100000
+    },
+    {
+      "vehicleId": 3,
+      "serviceType": "driver_fuel",
+      "price": 1450000
+    },
+    {
+      "vehicleId": 3,
+      "serviceType": "all_in",
+      "price": 1850000
+    },
+    {
+      "vehicleId": 4,
+      "serviceType": "driver_only",
+      "price": 900000
+    },
+    {
+      "vehicleId": 4,
+      "serviceType": "driver_fuel",
+      "price": 1200000
+    },
+    {
+      "vehicleId": 4,
+      "serviceType": "all_in",
+      "price": 1550000
+    },
+    {
+      "vehicleId": 5,
+      "serviceType": "driver_only",
+      "price": 1100000
+    },
+    {
+      "vehicleId": 5,
+      "serviceType": "driver_fuel",
+      "price": 1500000
+    },
+    {
+      "vehicleId": 5,
+      "serviceType": "all_in",
+      "price": 1650000
+    },
+    {
+      "vehicleId": 6,
+      "serviceType": "driver_only",
+      "price": 1600000
+    },
+    {
+      "vehicleId": 6,
+      "serviceType": "driver_fuel",
+      "price": 2050000
+    },
+    {
+      "vehicleId": 6,
+      "serviceType": "all_in",
+      "price": 2250000
+    }
+  ],
+  "promos": [],
+  "faqs": [
+    {
+      "id": 1,
+      "question": "Apakah harga sudah termasuk driver?",
+      "enQuestion": "Does the price include a driver?",
+      "answer": "Ya, layanan publik kami menggunakan kendaraan dengan driver.",
+      "enAnswer": "Yes. Our public services include a professional driver.",
+      "category": "booking",
+      "sortOrder": 1,
+      "published": 1
+    },
+    {
+      "id": 2,
+      "question": "Bagaimana cara melakukan pembayaran?",
+      "enQuestion": "How do I pay?",
+      "answer": "Pembayaran dilakukan manual melalui WhatsApp setelah Owner mengonfirmasi ketersediaan.",
+      "enAnswer": "Payment is arranged manually through WhatsApp after the Owner confirms availability.",
+      "category": "payment",
+      "sortOrder": 2,
+      "published": 1
+    },
+    {
+      "id": 3,
+      "question": "Berapa jumlah peserta yang dapat dipilih?",
+      "enQuestion": "How many guests can I select?",
+      "answer": "Kalkulator paket mendukung 2 sampai 9 peserta. Untuk rombongan lebih besar, hubungi kami melalui WhatsApp.",
+      "enAnswer": "Package pricing supports 2 to 9 guests. Contact us on WhatsApp for larger groups.",
+      "category": "booking",
+      "sortOrder": 3,
+      "published": 1
+    },
+    {
+      "id": 4,
+      "question": "Apakah ada paket khusus wisatawan Malaysia?",
+      "enQuestion": "Is there a package for Malaysian travellers?",
+      "answer": "Ya. Paket Hiking Malaysia (Gunung Prau via Patak Banteng, Gunung Merbabu via Suwanting, dan Combo) dihargai dalam Ringgit (RM) dengan minimal 4 peserta per grup.",
+      "enAnswer": "Yes. The Malaysia Hiking packages (Mount Prau via Patak Banteng, Mount Merbabu via Suwanting, and a Combo) are priced in Ringgit (RM) with a minimum of 4 guests per group.",
+      "category": "booking",
+      "sortOrder": 4,
+      "published": 1
+    },
+    {
+      "id": 5,
+      "question": "Tes FAQ",
+      "enQuestion": "",
+      "answer": "Jawaban tes",
+      "enAnswer": "",
+      "category": "tes",
+      "sortOrder": 99,
+      "published": 1
+    }
+  ],
+  "homepage": [
+    {
+      "sectionKey": "hero",
+      "title": "Jelajah Jawa dengan cara yang lebih berarti.",
+      "enTitle": "See Java in a more meaningful way.",
+      "body": "Paket trip terkurasi, kendaraan dengan driver, dan bantuan lokal untuk perjalanan yang terasa dekat.",
+      "enBody": "Thoughtfully curated trips, driver-led vehicles, and local support for a more personal journey.",
+      "image": "",
+      "sortOrder": 1,
+      "visible": 1
+    },
+    {
+      "sectionKey": "booking_note",
+      "title": "Booking disimpan sebelum dikonfirmasi.",
+      "enTitle": "Your request is saved before confirmation.",
+      "body": "Permintaan booking diperiksa Owner sebelum pembayaran manual dilakukan melalui WhatsApp.",
+      "enBody": "The Owner checks every request before manual payment is arranged through WhatsApp.",
+      "image": "",
+      "sortOrder": 2,
+      "visible": 1
+    }
+  ],
+  "bookings": []
+}

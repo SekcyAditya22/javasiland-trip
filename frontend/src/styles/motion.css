@@ -1,0 +1,34 @@
+@keyframes page-enter {
+  from {
+    opacity: 0.85;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .admin-editor,
+  .settings-modal,
+  .welcome-modal,
+  .delete-modal {
+    animation: page-enter 140ms ease-out;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .button:hover,
+  .card:hover,
+  .fleet-card:hover {
+    transform: none;
+  }
+}

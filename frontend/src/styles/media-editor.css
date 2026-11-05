@@ -1,0 +1,166 @@
+.media-gallery-editor {
+  display: grid;
+  gap: 22px;
+  min-width: 0;
+}
+.image-gallery-editor-list li.selected {
+  outline: 2px solid var(--navy);
+  outline-offset: 2px;
+  border-radius: 12px;
+}
+.image-gallery-adjust {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  border: 1px solid #fff;
+  background: rgb(255 255 255 / 94%);
+  border-radius: 7px;
+  padding: 6px 9px;
+  color: var(--navy);
+  font-size: 10px;
+  font-weight: 700;
+}
+.image-framing-editor {
+  border: 1px solid var(--line);
+  border-radius: 15px;
+  padding: 20px;
+  min-width: 0;
+}
+.image-framing-head {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  color: var(--navy);
+}
+.image-framing-head h4 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 7px;
+}
+.image-framing-head p {
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.7;
+  margin: 0;
+  max-width: 550px;
+}
+.image-framing-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(180px, 1fr);
+  align-items: start;
+  gap: 24px;
+}
+.image-framing-stage {
+  position: relative;
+  background: var(--mist);
+  overflow: hidden;
+  border-radius: 12px;
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+}
+.image-framing-stage:active {
+  cursor: grabbing;
+}
+.image-framing-stage .smart-image {
+  position: absolute;
+  inset: 0;
+}
+.image-framing-stage img {
+  pointer-events: none;
+  user-select: none;
+}
+.image-framing-guide {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  pointer-events: none;
+  background: rgb(23 35 63 / 72%);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 99px;
+  padding: 7px 11px;
+  font-size: 10px;
+}
+.image-framing-controls {
+  display: grid;
+  gap: 15px;
+  min-width: 0;
+}
+.image-framing-controls .small-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+.media-range {
+  display: grid;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--muted);
+  gap: 8px;
+}
+.media-range > span {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.media-range output {
+  color: var(--navy);
+  font-variant-numeric: tabular-nums;
+}
+.media-range input {
+  accent-color: var(--navy);
+  width: 100%;
+  min-width: 0;
+}
+.media-range input:focus-visible {
+  outline: 2px solid var(--navy);
+  outline-offset: 4px;
+  border-radius: 8px;
+}
+.hero-carousel,
+.hero-carousel .image-carousel-stage {
+  height: 100%;
+}
+.hero-carousel .image-carousel-bottom {
+  top: 58px;
+  bottom: auto;
+  z-index: 3;
+}
+.hero-carousel .image-carousel-arrow,
+.hero-carousel .image-carousel-count {
+  z-index: 3;
+}
+.hero-visual-card .hero-route-label {
+  z-index: 2;
+  pointer-events: none;
+}
+.hero-visual-card .hero-note,
+.hero-visual-card .hero-orbit {
+  pointer-events: none;
+}
+.homepage-content-section.has-gallery {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(24px, 5vw, 64px);
+  align-items: center;
+}
+.homepage-content-section .image-carousel-stage {
+  border-radius: 18px;
+}
+.homepage-section-copy {
+  white-space: pre-line;
+}
+@media (max-width: 760px) {
+  .image-framing-layout,
+  .homepage-content-section.has-gallery {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .image-framing-editor {
+    padding: 15px;
+  }
+}

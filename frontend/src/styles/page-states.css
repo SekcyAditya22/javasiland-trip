@@ -1,0 +1,214 @@
+.page-state {
+  align-items: center;
+  background: linear-gradient(155deg, var(--sand), #fcfdff 70%);
+  display: flex;
+  justify-content: center;
+  min-height: 65vh;
+  padding: 70px 20px;
+}
+.page-state-card {
+  max-width: 640px;
+  text-align: center;
+}
+.page-state-symbol {
+  align-items: center;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  color: var(--navy);
+  display: flex;
+  height: 76px;
+  justify-content: center;
+  margin: 0 auto 24px;
+  width: 76px;
+}
+.page-state h1 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(32px, 5vw, 50px);
+  line-height: 1.15;
+  margin: 0;
+}
+.page-state-description {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.8;
+  margin: 20px auto 28px;
+  max-width: 480px;
+}
+.page-state-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.page-loading {
+  margin: auto;
+  max-width: 1280px;
+  min-height: 65vh;
+  padding: 48px clamp(20px, 5vw, 72px) 72px;
+}
+.page-loading.compact {
+  min-height: 0;
+  padding: 0;
+}
+.loading-caption {
+  align-items: center;
+  color: var(--muted);
+  display: flex;
+  font-size: 13px;
+  gap: 12px;
+  line-height: 1.6;
+  margin: 0 0 28px;
+}
+.loading-mark {
+  align-items: center;
+  background: var(--mist);
+  border-radius: 10px;
+  color: var(--navy);
+  display: inline-flex;
+  flex: 0 0 36px;
+  font-size: 12px;
+  font-weight: 700;
+  height: 36px;
+  justify-content: center;
+}
+.skeleton {
+  background: #e8edf5;
+  border-radius: 8px;
+}
+.skeleton-kicker {
+  height: 12px;
+  max-width: 45%;
+  width: 150px;
+}
+.skeleton-title {
+  height: 42px;
+  margin: 18px 0 24px;
+  max-width: 100%;
+  width: 350px;
+}
+.skeleton-line {
+  height: 13px;
+  margin-bottom: 12px;
+}
+.skeleton-line.short {
+  width: 65%;
+}
+.skeleton-action {
+  border-radius: 99px;
+  height: 40px;
+  margin-top: 28px;
+  max-width: 100%;
+  width: 150px;
+}
+.loading-card-grid,
+.loading-detail {
+  display: grid;
+  gap: 22px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.loading-detail {
+  align-items: center;
+  gap: 40px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.loading-card {
+  border: 1px solid var(--line);
+  border-radius: 17px;
+  overflow: hidden;
+}
+.loading-card .skeleton-picture {
+  border-radius: 0;
+  height: 220px;
+}
+.loading-copy {
+  padding: 22px;
+}
+.loading-detail > .skeleton-picture {
+  border-radius: 20px;
+  height: 460px;
+}
+.smart-image {
+  background: var(--mist);
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.smart-image > img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+.smart-image:not([data-state="loaded"]) > img {
+  opacity: 0;
+}
+.smart-image-placeholder,
+.smart-image-error {
+  inset: 0;
+  position: absolute;
+}
+.smart-image-placeholder {
+  border-radius: inherit;
+}
+.smart-image-error {
+  align-items: center;
+  color: var(--muted);
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+  gap: 8px;
+  justify-content: center;
+  padding: 8px;
+  text-align: center;
+}
+.gallery-strip .smart-image {
+  border-radius: 9px;
+  height: 65px;
+  width: 80px;
+}
+.gallery-strip .smart-image-error > span {
+  display: none;
+}
+.table-image .smart-image-error > span {
+  display: none;
+}
+.hero-visual-card > .hero-photo {
+  inset: 0;
+  position: absolute;
+}
+.hero-photo::after {
+  background: linear-gradient(
+    140deg,
+    rgba(23, 35, 63, 0.08),
+    rgba(23, 35, 63, 0.62)
+  );
+  content: "";
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+}
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes skeleton-pulse {
+    50% {
+      opacity: 0.55;
+    }
+  }
+  .skeleton {
+    animation: skeleton-pulse 1.8s ease-in-out infinite;
+  }
+}
+@media (max-width: 780px) {
+  .loading-detail,
+  .loading-card-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .loading-detail > .skeleton-picture {
+    height: 320px;
+  }
+  .loading-card:nth-child(n + 2) {
+    display: none;
+  }
+}
